@@ -1,0 +1,69 @@
+.color-even {background-color: #FFF;}
+.color-odd {background-color: #F5F5F5;}
+.color-black {background-color: #000;}
+h1,h2 {font-family: 'Lato', sans-serif;font-weight: 900;}
+h3 {font-family: 'Lato', sans-serif;font-weight: 700;}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+
+}
+
+.company {display:block;font-weight:700;}
+.date {display:block;}
+.position {display:block;}
+.city {display:block;}
+
+#home {
+	text-align: center;
+	background-color: #F5F5F5;
+	height:100%;
+}
+
+
+.social-icons{
+	list-style: none;
+}
+
+footer{
+
+	color:#fff!important;
+
+}
+
+#htmlprogressbar{
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+  position: relative;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.test {background-color: green;} 
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.test {background-color: yellow;} 
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.test {background-color: red;} 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.test {background-color: cyan;} 
+	#home {text-align: left;}	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.test {background-color: green;} 
+		#home {text-align: left;}
+}
+
